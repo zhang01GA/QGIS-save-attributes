@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Save Attributes
+qgisMinimumVersion=2.0
+description=this plugin saves attributes of selected layers as CSV file
+version=0.1
+author=Fei Zhang
+email=feizhang0@gmail.com
+
+about=Save the attributes of a selected vector layer in a CSV file
+
+tracker=https://github.com/codexp/qgisplugins
+repository=https://github.com/codexp/qgisplugins
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=csv, attribute, attribute table
+
+homepage=https://github.com/codexp/qgisplugins
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
